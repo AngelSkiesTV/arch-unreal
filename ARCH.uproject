@@ -1,0 +1,30 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.4",
+  "Category": "",
+  "Description": "ARCH node - AngelSkies TV",
+  "Modules": [],
+  "Plugins": [
+    {
+      "Name": "OpenXR",
+      "Enabled": true
+    },
+    {
+      "Name": "OculusXR",
+      "Enabled": false,
+      "MarketplaceURL": "https://developers.meta.com/horizon/downloads/package/unreal-engine-5-integration"
+    },
+    {
+      "Name": "AndroidPermission",
+      "Enabled": true
+    },
+    {
+      "Name": "Datasmith",
+      "Enabled": false
+    }
+  ],
+  "TargetPlatforms": [
+    "Windows",
+    "Android"
+  ]
+}
